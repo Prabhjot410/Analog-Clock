@@ -5,7 +5,7 @@
 
 body{
     background: linear-gradient(to right, hsl(200,100%,50%), hsl(175,100%,50%));
-    display: inline;
+    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -19,6 +19,7 @@ body{
     border-radius: 50%;
     border: 2px solid black;
     position: relative;
+    background-color: rgb(170, 232, 235);
     
 }
 
@@ -73,20 +74,20 @@ body{
     border-radius: 50%;
 }
 
-.hand .sec{
-    width: 3%;
+.sec{
+    width: 3px;
     height: 45%;
     background-color: crimson;
 }
 
-.hand .min{
-    width: 7%;
+.min{
+    width: 7px;
     height: 40%;
     background-color: black;
 }
 
-.hand .hour{
-    width: 10%;
+.hour{
+    width: 10px;
     height: 35%;
     background-color: black;
 }
